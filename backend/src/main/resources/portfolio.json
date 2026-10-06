@@ -1,0 +1,40 @@
+{
+  "name": "Brayan Mendes de Carvalho",
+  "initials": "BC",
+  "draft": false,
+  "role": {"pt": "Programador · Estudante de Engenharia de Software", "en": "Programmer · Software Engineering student"},
+  "headline": {"pt": "Ideias em código.\nCódigo com propósito.", "en": "Ideas into code.\nCode with purpose."},
+  "summary": {"pt": "Estudo Engenharia de Software na PUC Minas e quero construir minha trajetória na programação, transformando o que aprendo em projetos e soluções.", "en": "I study Software Engineering at PUC Minas and want to build a career in programming, turning what I learn into projects and solutions."},
+  "about": {"pt": "Sou Brayan Mendes de Carvalho, estudante de Engenharia de Software na PUC Minas, com foco em programação e experiência em projetos universitários. Quero aprofundar meus conhecimentos e aplicá-los na construção de soluções úteis. Tenho inglês intermediário e vivi oito meses de intercâmbio em Dublin, na Irlanda, uma experiência importante na minha trajetória pessoal e acadêmica.", "en": "I’m Brayan Mendes de Carvalho, a Software Engineering student at PUC Minas with a focus on programming and experience in university projects. I want to deepen my knowledge and apply it to building useful solutions. I speak English at an intermediate level and spent eight months on an exchange program in Dublin, Ireland, an important experience in my personal and academic journey."},
+  "education": {"pt": "Engenharia de Software · PUC Minas", "en": "Software Engineering · PUC Minas"},
+  "location": {"pt": "Intercâmbio · Dublin, Irlanda (8 meses)", "en": "Exchange program · Dublin, Ireland (8 months)"},
+  "languages": {"pt": "Inglês intermediário", "en": "Intermediate English"},
+  "skills": ["Java", "Spring Boot", "React", "JavaScript", "HTML & CSS", "Git"],
+  "links": {"email": "brayanmendes1234@hotmail.com", "github": "https://github.com/BrayanMCarvalho", "linkedin": "https://www.linkedin.com/in/brayan-mendes-8134b22b8/", "whatsapp": ""},
+  "projects": [
+    {
+      "id": "candidatos-tse", "date": "2026-09-28", "name": "Candidatos TSE",
+      "description": {"pt": "Aplicação web para consultar candidatos de Minas Gerais nas eleições de 2026 a partir de dados CSV do TSE. Permite filtrar por gênero, escolaridade e faixa etária, exibindo a quantidade de resultados e informações como nome de urna, número, cargo e partido.", "en": "A web application for browsing candidates in Minas Gerais for the 2026 elections using TSE CSV data. It supports filters by gender, education and age range, displaying the result count and details such as ballot name, candidate number, office and party."},
+      "technologies": ["Java 25", "Spring Boot", "Thymeleaf", "OpenCSV", "HTML & CSS"],
+      "repository": "https://github.com/BrayanMCarvalho/DIAW",
+      "image": "", "imageAlt": {"pt": "", "en": ""}
+    },
+    {
+      "id": "portfolio", "date": "2026-10-05", "name": "Portfólio profissional",
+      "description": {"pt": "O site que você está visitando: interface bilíngue, linha do tempo de projetos e uma API para envio de mensagens. Desenvolvido para o Laboratório 01 de DIAW.", "en": "The website you are visiting: a bilingual interface, a project timeline, and an API for sending messages. Developed for DIAW Lab 01."},
+      "technologies": ["React", "Spring Boot", "Java 21", "CSS"],
+      "repository": "https://github.com/BrayanMCarvalho/Portfolio-Profissional",
+      "image": "/projects/portfolio.png", "imageAlt": {"pt": "Página inicial do portfólio em funcionamento", "en": "Portfolio home page running"}
+    }
+  ],
+  "experiences": [
+    {
+      "id": "isi-dublin",
+      "company": "ISI Dublin · Dublin, Irlanda",
+      "role": {"pt": "Intercâmbio internacional", "en": "International exchange program"},
+      "start": "2022-08-01",
+      "end": "2023-03-01",
+      "description": {"pt": "Intercâmbio de oito meses em Dublin, na Irlanda, na instituição ISI Dublin. Vivência internacional e contato com o inglês no dia a dia. Nível atual de inglês: intermediário.", "en": "An eight-month exchange program at ISI Dublin in Dublin, Ireland. International experience and exposure to English in everyday life. Current English level: intermediate."}
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: portfolio-lab01
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: RESEND_API_KEY
+        sync: false
+      - key: CONTACT_FROM
+        sync: false
+      - key: CONTACT_TO
+        sync: false
